@@ -108,7 +108,7 @@
 		// The value will be rounded as defined by the precision option object.
 		readableDistance: function (distance, isMetric, isFeet, isNauticalMile, precision) {
 			var distanceStr,
-				units,
+				units,type,
 				precision = L.Util.extend({}, defaultPrecision, precision);
 
 			if (isMetric) {
